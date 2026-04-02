@@ -4,10 +4,10 @@ A mobile-first interview preparation board built with **Next.js + TypeScript** f
 
 ## Live Demo
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-- Vercel: https://YOUR-VERCEL-LINK.vercel.app
+- Vercel: https://interviewsprint-frontend.vercel.app
 
 ## GitHub Repository
-- Repo: https://github.com/YOUR-USERNAME/interviewsprint-frontend
+- Repo: https://github.com/dileepk2003/interviewsprint-frontend.git
 
 ## Why this project
 Built to showcase frontend engineering skills aligned with SWE Frontend Internship expectations:
