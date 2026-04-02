@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# InterviewSprint (Frontend Internship Project)
 
-## Getting Started
+A mobile-first interview preparation board built with **Next.js + TypeScript** focused on polished frontend UX.
 
-First, run the development server:
+## Live Demo
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Vercel: https://YOUR-VERCEL-LINK.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## GitHub Repository
+- Repo: https://github.com/YOUR-USERNAME/interviewsprint-frontend
+
+## Why this project
+Built to showcase frontend engineering skills aligned with SWE Frontend Internship expectations:
+- Strong React + TypeScript fundamentals
+- Responsive/mobile-first UI
+- Reusable component architecture
+- Smooth user interactions and clean product feel
+
+## Features
+- Add interview tasks with category + priority
+- Mark tasks complete/incomplete
+- Delete tasks
+- Filter by status (All / Pending / Done)
+- Filter by category
+- Progress stats (total, done, pending, streak)
+- Local storage persistence
+- Dark themed polished UI
+
+## Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React Icons
+
+## Project Structure
+```txt
+src/
+  app/
+    layout.tsx
+    page.tsx
+    globals.css
+  components/
+    AddTaskForm.tsx
+    BottomNav.tsx
+    StatsCards.tsx
+    TaskList.tsx
+    ThemeToggle.tsx
+  lib/
+    storage.ts
+  types/
+    task.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open: `http://localhost:3000`
 
-## Learn More
+## Production Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Notes
+This project is intentionally frontend-focused (no backend) to match internship requirements for frontend engineering, UI quality, and mobile web experience.
